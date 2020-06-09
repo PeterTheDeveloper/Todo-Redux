@@ -1,4 +1,4 @@
-import { createStore } from "redux";
-import rootReducer from "../reducers/reducers.js";
+import { createStore, combineReducers } from "redux";
+import { todos, visibilityFilter } from "./reducers/reducers";
 
-export default store = createStore(rootReducer);
+export default createStore(combineReducers({ todos, visibilityFilter }));
