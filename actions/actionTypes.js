@@ -1,8 +1,8 @@
-const ADD_TODO = "ADD_TODO";
-const TOGGLE_TODO = "TOGGLE_TODO";
-const DELETE_TODO = "DELETE_TODO";
-const SET_FILTER = "SET_FILTER";
+export const ADD_TODO = "ADD_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const DELETE_TODO = "DELETE_TODO";
+export const SET_FILTER = "SET_FILTER";
 
-const FILTER_ALL = "all";
-const FILTER_COMPLETED = "completed";
-const FILTER_INCOMPLETE = "incomplete";
+export const FILTER_ALL = "all";
+export const FILTER_COMPLETED = "completed";
+export const FILTER_INCOMPLETE = "incomplete";
